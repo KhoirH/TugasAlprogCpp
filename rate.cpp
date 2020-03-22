@@ -7,11 +7,14 @@ int main()
 {
     // kita diawal harus mendeklarasikan variable
     // ini adalah variable
+
+    //variable berisi karakter dengan panjang maksimal 20
     char siswa_nama[20];
-    int nilai_1;
-    int nilai_2;
-    int nilai_3;
+    int nilai_1, nilai_2, nilai_3;
     float hasil;
+    
+    // gambar macam* tipe data
+    // https://www.nesabamedia.com/wp-content/uploads/2018/05/jenis-jenis-tipe-data-2.png
 
     // membuat inputan nama siswa
     cout << "Nama Siswa \t : ";
@@ -33,7 +36,7 @@ int main()
     hasil =  (nilai_1 + nilai_2 + nilai_3) / 3;
 
     //  menampilkan hasil
-    cout << "Nilai rata rata" << siswa_nama << "adalah = " << hasil <<  endl;
+    cout << "Nilai rata rata " << siswa_nama << " adalah = " << hasil <<  endl;
     system("pause");
 
     return 0;
