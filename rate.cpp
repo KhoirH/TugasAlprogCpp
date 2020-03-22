@@ -1,5 +1,4 @@
 #include <iostream>
-#include <math.h>
 
 using namespace std;
 
@@ -12,7 +11,7 @@ int main()
     char siswa_nama[20];
     int nilai_1, nilai_2, nilai_3;
     float hasil;
-    
+
     // gambar macam* tipe data
     // https://www.nesabamedia.com/wp-content/uploads/2018/05/jenis-jenis-tipe-data-2.png
 
