@@ -5,7 +5,6 @@
 using namespace std;
 int main(){
   double c, f;
-  char a = 'sasasdsad';
   cout << "============================" << endl;
   cout << "Masukan Nilai Celcius \t \t: " ;
   cin >> c;
