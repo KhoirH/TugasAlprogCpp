@@ -35,6 +35,7 @@ main()
 
 	sum = rate_kehadiran + rate_nilai_uas + rate_nilai_uts + rate_tugas;
 	cout << sum << endl;
+	
 
 	if(sum >= 85) {
 		index = 'A';
