@@ -17,7 +17,10 @@ void loopSelf () {
 
 // main function
 int main () {
+  
+  //execution action in main
   loopSelf();
+
   system("pause");
   return  0;
 }
